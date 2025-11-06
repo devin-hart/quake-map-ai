@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Build / cache
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+.cache/
+__temp__/
+.ipynb_checkpoints/
+
+# Model / data artifacts
+data/raw_maps/*.map
+data/processed/*.npy
+data/processed/*.json
+results/generated_maps/*.bsp
+results/generated_maps/*.prt
+results/generated_maps/*.lin
+results/generated_maps/*.pts
+results/generated_maps/*.vis
+results/generated_maps/*.lit
+results/generated_maps/*.map
+results/generated_maps/*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System
+Thumbs.db
